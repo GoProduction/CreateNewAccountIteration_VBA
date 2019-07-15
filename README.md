@@ -29,3 +29,19 @@ Here, when we select the "New Account" button at the bottom, a new account is cr
 
 ## The code...
 
+<pre><code>
+'----------------Declarations----------------------
+
+Dim dbs As DAO.Database, rst As DAO.Recordset, rst2 As DAO.Recordset
+Dim varMaxID As Integer
+Dim varMaxUser As String
+Dim varUserNumber As String
+
+
+'----------------String: Latest ID-------------------
+Dim strFindID As String
+strFindID = "SELECT Max(accID) as maxID " _
+            & "FROM tbl_Accounts " _
+            & "WHERE accType = 'TST';"
+            
+</code></pre>
