@@ -16,4 +16,4 @@ I did this, for about 2 months... then I figured I didn't enjoy the feeling of c
 
 ## Take a look...
 
-<img src="/images/AcctImg01.jpeg"/>
+<img src="/images/AcctImg01.JPG"/>
