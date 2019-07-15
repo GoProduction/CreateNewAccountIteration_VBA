@@ -4,6 +4,7 @@ This method (written in Visual Basic) creates a new account iteration. This is v
 ## Background Info
 In my field of work, I am required to create multiple accounts per day throughout multiple web environments. These accounts have to follow a certain naming convention per environment.
 A naming convention for a new account could be:
+
 "node" + last name + environment suffix + #. 
 
 For example, in our Test environment, "nodemccoytest200" would be a proper naming convention.
@@ -17,3 +18,14 @@ I did this, for about 2 months... then I figured I didn't enjoy the feeling of c
 ## Take a look...
 
 <img src="/Images/AcctImg01.jpg"/>
+
+This is a screen capture of a form that I created to enter and edit all accounts for a Test environment. As you can see, I have created several accounts...
+
+My latest account created is listed as "nodemccoytest280".
+
+<img src="/Images/AcctImg02.jpg"/>
+
+Here, when we select the "New Account" button at the bottom, a new account is created that follows the naming convention, and goes up one interval; "nodemccoytest281".
+
+## The code...
+
